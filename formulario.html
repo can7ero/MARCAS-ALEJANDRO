@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="HTML y CSS/stilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo">MI</span>
+      <h1>Mi Instituto</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="HTML y CSS/index.html">Inicio</a>
+      <a href="HTML y CSS/horario.html">Horario</a>
+      <a href="HTML y CSS/indice.html">Índice</a>
+      <a href="formulario.html">Formulario</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <div class="cabecera">
+      <h1>Formulario</h1>
+    </div>
+
+
+    <form class="formulario" action="procesar.php" method="POST">
+      <fieldset>
+        <legend>Información Personal</legend>
+
+        <label for="nombre">Nombre*:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <label for="contraseña">Contraseña*:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="color">Color favorito:</label>
+        <input type="color" id="color" name="color">
+
+        <label for="archivo">Subir archivo:</label>
+        <input type="file" id="archivo" name="archivo">
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+          <option value="">Selecciona...</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+
+        <label for="intereses">Intereses:</label>
+        <label><input type="checkbox" name="intereses[]" value="deportes"> Deportes</label>
+        <label><input type="checkbox" name="intereses[]" value="musica"> Música</label>
+        <label><input type="checkbox" name="intereses[]" value="viajes"> Viajes</label>
+
+        <input type="submit" value="Enviar">
+      </fieldset>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Mi Instituto • DAW</p>
+    <p>Horario escolar y actividades</p>
+  </footer>
+</body>
+</html>
