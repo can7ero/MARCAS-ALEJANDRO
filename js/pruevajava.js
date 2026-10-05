@@ -1,0 +1,1 @@
+alert ("Hola, este es un mensaje de alerta desde el archivo pruevajava.js");
