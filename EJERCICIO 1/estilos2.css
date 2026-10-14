@@ -65,7 +65,6 @@ body {
 .enlaces > .boton:first-child {
     display: block;
     width: max-content;
-    margin-bottom: 0;
 }
 
 .enlaces pre {
@@ -134,7 +133,6 @@ body {
     }
 
     .capitulo {
-        right: 6px;
         left: 12px;
         height: 82px;
     }
