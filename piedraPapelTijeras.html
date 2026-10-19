@@ -1,33 +1,44 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Piedra, papel o tijera</title>
-    <link rel="stylesheet" href="../css/juego.css" />
+    <link rel="stylesheet" href="css/juego.css" />
     <script src="js/juego.js" defer></script>
 </head>
 
 <body>
-    <main>
-        <h1>Piedra, papel o tijera</h1>
-        <p class="instrucciones">Elige una opción y juega contra la máquina.</p>
+    <header class="barra-superior">
+        <a class="volver" href="index.html">← Volver al inicio</a>
+        <a class="enlace-formulario" href="formulario.html">Formulario</a>
+    </header>
 
-        <div class="opciones">
-            <button type="button" onclick="jugar('piedra')">Piedra</button>
-            <button type="button" onclick="jugar('papel')">Papel</button>
-            <button type="button" onclick="jugar('tijera')">Tijera</button>
-        </div>
+    <main class="contenedor-juego">
+        <section class="tarjeta-juego">
+            <p class="etiqueta">Pausa y juega</p>
+            <h1>Piedra, papel o tijera</h1>
+            <p class="instrucciones">Elige una opción y juega contra la máquina.</p>
 
-        <p id="marcador">Partidas jugadas: 0</p>
-        <p id="ganadas">Ganadas: 0</p>
-        <p id="empatadas">Empates: 0</p>
-        <p id="perdidas">Derrotas: 0</p>
+            <div class="opciones">
+                <button type="button" onclick="jugar('piedra')">✊ Piedra</button>
+                <button type="button" onclick="jugar('papel')">✋ Papel</button>
+                <button type="button" onclick="jugar('tijera')">✌️ Tijera</button>
+            </div>
 
-        <section id="resultado">
-            <h2>Resultado</h2>
-            <p id="jugada-jugador">Tu jugada aparecerá aquí.</p>
-            <p id="jugada-maquina">La jugada de la máquina aparecerá aquí.</p>
-            <p id="mensaje"></p>
+            <section class="estadisticas" aria-label="Marcador">
+                <p id="marcador">Partidas jugadas: 0</p>
+                <p id="ganadas">Ganadas: 0</p>
+                <p id="empatadas">Empates: 0</p>
+                <p id="perdidas">Derrotas: 0</p>
+            </section>
+
+            <section id="resultado" class="resultado" aria-live="polite">
+                <h2>Resultado</h2>
+                <p id="jugada-jugador">Tu jugada aparecerá aquí.</p>
+                <p id="jugada-maquina">La jugada de la máquina aparecerá aquí.</p>
+                <p id="mensaje"></p>
+            </section>
         </section>
     </main>
 </body>
