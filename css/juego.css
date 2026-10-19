@@ -67,11 +67,15 @@ h1 {
     color: #64748b;
 }
 
-.opciones {
+.opciones,
+.estadisticas {
     display: flex;
     justify-content: center;
-    gap: 12px;
     flex-wrap: wrap;
+}
+
+.opciones {
+    gap: 12px;
 }
 
 .opciones button {
@@ -99,10 +103,7 @@ h1 {
 }
 
 .estadisticas {
-    display: flex;
-    justify-content: center;
     gap: 10px;
-    flex-wrap: wrap;
     margin: 28px 0;
 }
 
