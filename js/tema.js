@@ -1,32 +1,20 @@
+let modoOscuro = localStorage.getItem("tema-web") === "oscuro";
 const botonTema = document.createElement("button");
+
 botonTema.className = "theme-toggle";
 botonTema.type = "button";
-botonTema.setAttribute("aria-pressed", "false");
 document.body.append(botonTema);
 
-function aplicarTema(tema) {
-  const oscuro = tema === "oscuro";
-  document.body.dataset.tema = oscuro ? "oscuro" : "claro";
-  botonTema.textContent = oscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
-  botonTema.setAttribute("aria-pressed", String(oscuro));
+function actualizarTema() {
+  document.body.dataset.tema = modoOscuro ? "oscuro" : "claro";
+  botonTema.textContent = modoOscuro ? "☀️ Modo claro" : "🌙 Modo oscuro";
+  botonTema.setAttribute("aria-pressed", modoOscuro);
 }
 
-let temaGuardado = null;
-try {
-  temaGuardado = localStorage.getItem("tema-web");
-} catch (error) {
-  console.warn("No se pudo leer la preferencia del tema.", error);
-}
-
-aplicarTema(temaGuardado === "oscuro" ? "oscuro" : "claro");
+actualizarTema();
 
 botonTema.addEventListener("click", function () {
-  const tema = document.body.dataset.tema === "oscuro" ? "claro" : "oscuro";
-  aplicarTema(tema);
-
-  try {
-    localStorage.setItem("tema-web", tema);
-  } catch (error) {
-    console.warn("No se pudo guardar la preferencia del tema.", error);
-  }
+  modoOscuro = !modoOscuro;
+  actualizarTema();
+  localStorage.setItem("tema-web", modoOscuro ? "oscuro" : "claro");
 });
