@@ -7,7 +7,9 @@ body {
     margin: 0;
     color: #1e293b;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #e7f0fb, #f5f8fc);
+    background:
+        radial-gradient(ellipse at top right, rgba(215, 232, 255, 0.65), transparent 34rem),
+        #f3f6fb;
 }
 
 .barra-superior {
@@ -15,7 +17,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 18px clamp(20px, 6vw, 80px);
-    background: #fff;
+    background: linear-gradient(110deg, #fff, #f7faff);
     box-shadow: 0 2px 12px rgba(30, 41, 59, 0.08);
 }
 
@@ -43,7 +45,8 @@ body {
     text-align: center;
     background: #fff;
     border: 1px solid #e2e8f0;
-    border-radius: 24px;
+    border-top: 4px solid #8eacd0;
+    border-radius: 20px;
     box-shadow: 0 18px 50px rgba(36, 75, 131, 0.12);
 }
 
@@ -84,7 +87,7 @@ h1 {
     color: #fff;
     font: inherit;
     font-weight: 700;
-    background: #315f96;
+    background: linear-gradient(135deg, #315f96, #477ab4);
     border: 0;
     border-radius: 12px;
     cursor: pointer;
@@ -120,7 +123,7 @@ h1 {
 .resultado {
     padding: 18px;
     color: #475569;
-    background: #f8fafc;
+    background: #f4f7fb;
     border-radius: 16px;
 }
 
