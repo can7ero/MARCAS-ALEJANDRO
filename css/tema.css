@@ -32,7 +32,7 @@ body {
 
 body[data-tema="oscuro"] {
   background: #172334 !important;
-  color: #e5edf7 !important;
+  color: #e0d1a5 !important;
   color-scheme: dark;
 }
 
@@ -40,7 +40,7 @@ body[data-tema="oscuro"] header,
 body[data-tema="oscuro"] footer,
 body[data-tema="oscuro"] .barra-superior {
   background: #111d2d !important;
-  color: #f3f7fc !important;
+  color: #f0e2bc !important;
 }
 
 body[data-tema="oscuro"] main,
@@ -53,7 +53,7 @@ body[data-tema="oscuro"] .tarjeta-juego,
 body[data-tema="oscuro"] .resultado {
   border-color: #35465d;
   background-color: #202f43;
-  color: #e5edf7;
+  color: #e0d1a5;
 }
 
 body[data-tema="oscuro"] h1,
@@ -61,7 +61,7 @@ body[data-tema="oscuro"] h2,
 body[data-tema="oscuro"] h3,
 body[data-tema="oscuro"] h4,
 body[data-tema="oscuro"] legend {
-  color: #d7e7fb;
+  color: #f0cf75;
 }
 
 body[data-tema="oscuro"] .site-header h1,
@@ -69,7 +69,7 @@ body[data-tema="oscuro"] .site-footer,
 body[data-tema="oscuro"] .site-footer p,
 body[data-tema="oscuro"] .main-nav a,
 body[data-tema="oscuro"] .barra-superior a {
-  color: #f3f7fc;
+  color: #f0e2bc;
 }
 
 body[data-tema="oscuro"] a {
@@ -81,34 +81,70 @@ body[data-tema="oscuro"] textarea,
 body[data-tema="oscuro"] select {
   border-color: #52657e;
   background-color: #172334;
-  color: #e5edf7;
+  color: #e0d1a5;
 }
 
 body[data-tema="oscuro"] .indice-page > h1 {
-  color: #d7e7fb;
+  color: #f0cf75;
 }
 
-body[data-tema="oscuro"] .indice-page table {
+body[data-tema="oscuro"] table {
   border-color: #35465d;
   background: #202f43;
 }
 
-body[data-tema="oscuro"] .indice-page th,
-body[data-tema="oscuro"] .indice-page td {
+body[data-tema="oscuro"] th,
+body[data-tema="oscuro"] td {
   border-color: #35465d;
-  color: #e5edf7;
+  background-color: #26374c;
+  color: #e0d1a5;
 }
 
-body[data-tema="oscuro"] .indice-page th {
+body[data-tema="oscuro"] th {
   background: #2b4565;
 }
 
-body[data-tema="oscuro"] .indice-page tbody tr:nth-child(even) {
+body[data-tema="oscuro"] .page-table td.PROG   { background: #594638; }
+body[data-tema="oscuro"] .page-table td.SIST   { background: #304969; }
+body[data-tema="oscuro"] .page-table td.BBDD   { background: #463d66; }
+body[data-tema="oscuro"] .page-table td.IPE    { background: #633d59; }
+body[data-tema="oscuro"] .page-table td.ING    { background: #5c512e; }
+body[data-tema="oscuro"] .page-table td.PROY   { background: #36523c; }
+body[data-tema="oscuro"] .page-table td.LLMM   { background: #2e5058; }
+body[data-tema="oscuro"] .page-table td.DIGI   { background: #603f42; }
+body[data-tema="oscuro"] .page-table td.SOST   { background: #594637; }
+body[data-tema="oscuro"] .page-table td.ENT    { background: #315044; }
+body[data-tema="oscuro"] .page-table td.RECREO { background: #3a4655; }
+
+body[data-tema="oscuro"] .indice-page tbody tr:nth-child(even) td {
+  background: #2a3b50;
+}
+
+body[data-tema="oscuro"] .indice-page tbody tr:hover td {
+  background: #30465f;
+}
+
+body[data-tema="oscuro"] .pagina-ejercicio .bloque-span {
   background: #26374c;
 }
 
-body[data-tema="oscuro"] .indice-page tbody tr:hover {
-  background: #30465f;
+body[data-tema="oscuro"] .pagina-ejercicio .resaltado,
+body[data-tema="oscuro"] .pagina-ejercicio .negrita {
+  background: #405875;
+  color: #f0e2bc;
+}
+
+body[data-tema="oscuro"] .menu-vertical li {
+  background: #304969;
+}
+
+body[data-tema="oscuro"] .menu-vertical li:nth-child(3) {
+  background: #633f48;
+}
+
+body[data-tema="oscuro"] .capitulo {
+  border-color: #52657e;
+  background: #26374c;
 }
 
 @media (max-width: 480px) {
