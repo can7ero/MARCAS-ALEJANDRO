@@ -14,6 +14,7 @@ function actualizarTema() {
 actualizarTema();
 
 botonTema.addEventListener("click", function () {
+  alert("Se va a cambiar el color de la página.");
   modoOscuro = !modoOscuro;
   actualizarTema();
   localStorage.setItem("tema-web", modoOscuro ? "oscuro" : "claro");
