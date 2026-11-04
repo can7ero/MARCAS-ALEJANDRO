@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="css/stilos.css">
+  <link rel="stylesheet" href="css/tema.css">
+  <script src="js/tema.js" defer></script>
+  <script src="js/calculadora.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo">MI</span>
+      <h1>Mi Instituto</h1>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Inicio</a>
+      <a href="horario.html">Horario</a>
+      <a href="indice.html">Índice</a>
+      <a href="formulario.html">Formulario</a>
+      <a href="EJERCICIO 1/index.html">Ejercicios</a>
+      <a href="piedraPapelTijeras.html">Juego</a>
+      <a href="calculadora.html">Calculadora</a>
+    </nav>
+  </header>
+
+  <main class="content">
+    <section class="calculadora">
+      <h2>Calculadora</h2>
+      <p class="pantalla" id="pantalla" aria-live="polite">0</p>
+      <div class="teclas">
+        <button type="button" data-accion="limpiar">C</button>
+        <button type="button" data-accion="borrar">⌫</button>
+        <button type="button" data-operador="/">÷</button>
+        <button type="button" data-operador="*">×</button>
+        <button type="button" data-numero="7">7</button>
+        <button type="button" data-numero="8">8</button>
+        <button type="button" data-numero="9">9</button>
+        <button type="button" data-operador="-">−</button>
+        <button type="button" data-numero="4">4</button>
+        <button type="button" data-numero="5">5</button>
+        <button type="button" data-numero="6">6</button>
+        <button type="button" data-operador="+">+</button>
+        <button type="button" data-numero="1">1</button>
+        <button type="button" data-numero="2">2</button>
+        <button type="button" data-numero="3">3</button>
+        <button type="button" data-accion="igual" class="igual">=</button>
+        <button type="button" data-numero="0" class="cero">0</button>
+        <button type="button" data-numero=".">.</button>
+      </div>
+      <p class="ayuda-calculadora">También puedes usar el teclado.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Mi Instituto • DAW</p>
+    <p>Horario escolar y actividades</p>
+  </footer>
+</body>
+</html>

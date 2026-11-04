@@ -56,6 +56,34 @@ body[data-tema="oscuro"] .resultado {
   color: #e0d1a5;
 }
 
+body[data-tema="oscuro"] .calculadora {
+  border-color: #35465d;
+  background: #202f43;
+}
+
+body[data-tema="oscuro"] .pantalla {
+  background: #172334;
+  color: #f0cf75;
+}
+
+body[data-tema="oscuro"] .teclas button {
+  background: #304969;
+  color: #f0e2bc;
+}
+
+body[data-tema="oscuro"] .teclas button:hover {
+  background: #3c587a;
+}
+
+body[data-tema="oscuro"] .teclas .igual {
+  background: #477ab4;
+  color: #fff;
+}
+
+body[data-tema="oscuro"] .ayuda-calculadora {
+  color: #c6b98f;
+}
+
 body[data-tema="oscuro"] h1,
 body[data-tema="oscuro"] h2,
 body[data-tema="oscuro"] h3,
