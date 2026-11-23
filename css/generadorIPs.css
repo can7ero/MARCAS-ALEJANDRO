@@ -1,0 +1,104 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 20px 15px;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    color: #000;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta {
+    width: calc(100% + 24px);
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 66px 38px 80px;
+    box-sizing: border-box;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0 4px 18px #0000001a;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 35px;
+    font-size: 34px;
+}
+
+h2 {
+    margin: 22px 0;
+    font-size: 26px;
+}
+
+p {
+    margin: 0 0 24px;
+    font-size: 18px;
+}
+
+h1 + p {
+    margin-bottom: 22px;
+}
+
+h2 + p {
+    margin-bottom: 35px;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 17px 35px;
+    border: 0;
+    border-radius: 9px;
+    background: #2e63e8;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#ip {
+    margin: 44px 0 0;
+    padding: 22px;
+    border: 2px solid #5b9cff;
+    border-radius: 10px;
+    background: #e4f0ff;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    .tarjeta {
+        width: 100%;
+        padding: 36px 20px 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .fila {
+        flex-wrap: wrap;
+    }
+
+    button {
+        max-width: 100%;
+        padding: 13px 15px;
+        font-size: 17px;
+    }
+
+    #ip {
+        font-size: 36px;
+    }
+}
