@@ -1,17 +1,15 @@
 body {
     min-height: 100vh;
     margin: 0;
-    padding: 30px 20px 15px;
+    padding: 0;
     box-sizing: border-box;
-    background: #f2f2f2;
-    color: #000;
     font-family: Arial, sans-serif;
 }
 
 .tarjeta {
     width: calc(100% + 24px);
     max-width: 650px;
-    margin: 0 auto;
+    margin: 30px auto 15px;
     padding: 66px 38px 80px;
     box-sizing: border-box;
     border-radius: 14px;
@@ -72,11 +70,12 @@ button {
 
 @media (max-width: 600px) {
     body {
-        padding: 12px;
+        padding: 0 12px 12px;
     }
 
     .tarjeta {
         width: 100%;
+        margin-top: 24px;
         padding: 36px 20px 50px;
     }
 
