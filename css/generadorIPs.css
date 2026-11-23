@@ -6,6 +6,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
 .tarjeta {
     width: calc(100% + 24px);
     max-width: 650px;
