@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productos>
+  <producto codigo="PER001">
+    <nombre>Teclado mecánico</nombre>
+    <descripcion>Teclado mecánico con conexión USB y retroiluminación.</descripcion>
+    <precio>59.99</precio>
+    <categoria>Periféricos</categoria>
+    <disponibilidad estado="en stock"/>
+    <imagen>https://media.revistavanityfair.es/photos/6a1ee98d3f20891bf2066107/1:1/w_1333,h_1333,c_limit/GettyImages-2278490737%20copia.jpg</imagen>
+  </producto>
+  <producto codigo="PER002">
+    <nombre>Ratón inalámbrico</nombre>
+    <descripcion>Ratón óptico inalámbrico con sensor de alta precisión.</descripcion>
+    <precio>24.50</precio>
+    <categoria>Periféricos</categoria>
+    <disponibilidad estado="en stock"/>
+    <imagen>https://media.revistavanityfair.es/photos/6a1ee98d3f20891bf2066107/1:1/w_1333,h_1333,c_limit/GettyImages-2278490737%20copia.jpg</imagen>
+  </producto>
+  <producto codigo="PER003">
+    <nombre>Auriculares con micrófono</nombre>
+    <descripcion>Auriculares estéreo con micrófono integrado para videollamadas.</descripcion>
+    <precio>34.99</precio>
+    <categoria>Periféricos</categoria>
+    <disponibilidad estado="en stock"/>
+    <imagen>https://media.revistavanityfair.es/photos/6a1ee98d3f20891bf2066107/1:1/w_1333,h_1333,c_limit/GettyImages-2278490737%20copia.jpg</imagen>
+  </producto>
+  <producto codigo="PER004">
+    <nombre>Cámara web HD</nombre>
+    <descripcion>Cámara web con resolución HD y conexión USB.</descripcion>
+    <precio>42.00</precio>
+    <categoria>Periféricos</categoria>
+    <disponibilidad estado="agotado"/>
+    <imagen>https://media.revistavanityfair.es/photos/6a1ee98d3f20891bf2066107/1:1/w_1333,h_1333,c_limit/GettyImages-2278490737%20copia.jpg</imagen>
+  </producto>
+  <producto codigo="PER005">
+    <nombre>Altavoces USB</nombre>
+    <descripcion>Altavoces compactos con alimentación y conexión USB.</descripcion>
+    <precio>29.90</precio>
+    <categoria>Periféricos</categoria>
+    <disponibilidad estado="en stock"/>
+    <imagen>https://media.revistavanityfair.es/photos/6a1ee98d3f20891bf2066107/1:1/w_1333,h_1333,c_limit/GettyImages-2278490737%20copia.jpg</imagen>
+  </producto>
+</productos>
